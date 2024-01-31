@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place - Se connecter ou s'inscrire </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="row top-margin ">
+        <div class="col-sm-1">
+            <!-- Empty for spacer-->
+        </div>
+        <div class="col-lg-5 ml-1 pl-4 pr-5 py-2">
+            <img id="logoPlace" src="images/LogoPlace.png" alt="LogoPlace" style="max-width: 80%; height: auto;">
+            <p>
+                Permet de partager des souvenirs ou faits historiques significatifs
+                liés à des lieux de votre quartier : une carte interactive remplie de récits personnels
+                et de culture locale.
+            </p>
+        </div>
+        <div class="col-lg-5 mr-1 px-5 py-2">
+
+            <form class="form-connection">
+                <div class="form-group">
+                    <label for="inputEmail"> </label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Adresse courriel">
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword"> </label>
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Mot de passe">
+                </div>
+
+                <button type="submit" class="btn btn-connection btn-block">Se connecter</button>
+
+                <hr>
+
+                <div class="d-flex justify-content-center py-2">
+                    <button type="button" class="btn btn-compte" data-toggle="modal"
+                        data-target="#creationCompteModal">Créer un compte</button>
+
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Modal Création de Compte -->
+    <div class="modal fade" id="creationCompteModal" tabindex="-1" role="dialog"
+        aria-labelledby="creationCompteModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="creationCompteModalLabel">S'inscrire</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Formulaire de création de compte -->
+                    <form id="form-inscription">
+                        <!-- Champs du formulaire -->
+                        <div class="form-group">
+                            <label for="fName"></label>
+                            <input type="text" class="form-control mr-2" id="fName" placeholder="Votre prénom">
+                            <label for="lName"></label>
+                            <input type="text" class="form-control" id="lName" placeholder="Votre nom">
+                            <label for="oName">-ou-</label>
+                            <input type="text" class="form-control" id="oName"
+                                placeholder="Le nom de votre organisation">
+                            <hr>
+                            <label for="newEmail"></label>
+                            <input type="email" class="form-control" id="newEmail" placeholder="Votre adresse courriel"
+                                data-default-placeholder="Votre adresse courriel">
+                            <label for="newPassword"></label>
+                            <input type="password" class="form-control" id="newPassword"
+                                placeholder="Votre mot de passe">
+                            <hr>
+                            <label for="sel1">Votre rôle : </label>
+                            <select class="form-control" id="selRole">
+                                <option disabled selected>Faire votre sélection</option>
+                                <option>Étudiant</option>
+                                <option>Enseignant</option>
+                                <option>Atelier d'histoire</option>
+                                <option>Citoyen</option>
+                            </select>
+                            <!-- Sélection cachée à moins de choisir Enseignant ou Étudiant-->
+                            <label for="selSchool"> </label>
+                            <select class="form-control" id="selSchool" style="display:none;">
+                                <option disabled selected>Votre école</option>
+                                <option>Collège Villa Maria</option>
+                                <option>École secondaire Chomedey-De Maisonneuve</option>
+                                <option>École secondaire Eulalie-Durocher</option>
+                            </select>
+                            <!-- Sélection cachée à moins de choisir une école-->
+                            <label for="selGroup"> </label>
+                            <select class="form-control" id="selGroup" style="display:none;">
+                                <option disabled selected>Votre groupe</option>
+                                <option>001A</option>
+                                <option>001B</option>
+                                <option>001C</option>
+                            </select>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                            <button type="submit" class="btn btn-primary">S'inscrire</button>
+
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript de Bootstrap et dépendances -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

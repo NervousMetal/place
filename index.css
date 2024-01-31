@@ -1,0 +1,36 @@
+
+body {
+    background-color: #E1EAEF; 
+    overflow-x: hidden;
+}
+
+.top-margin {
+    margin-top: 10em; 
+}
+
+
+
+.form-connection {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    background-color: white;
+    padding: 1em;
+    border-radius: 3%;
+}
+
+.btn-connection {
+    background-color: #e84531;
+    color: white; 
+  
+}
+
+.btn-compte {
+    background-color: #577399;
+    color: white; 
+  
+}
+
+/* formulaire modal  */
+
+.form-control option[disabled] {
+    color: 577399; 
+}
