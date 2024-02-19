@@ -1,0 +1,78 @@
+﻿@model place.Models.Utilisateur
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Utilisateur</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Role)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Role)
+        </dd>
+
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Publications)
+        </dt>
+        <dd class="col-sm-10">
+            <table class="table">
+                <tr>
+                    <th>Catégorie</th>
+                    <th>Titre de la publication</th>
+                    <th>Description de la publication</th>
+                </tr>
+                @foreach (var item in Model.Publications)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Categorie.CatName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PublicationTitle)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PublicationDescription)
+                        </td>
+                    </tr>
+                }
+            </table>
+        </dd>
+
+
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.UserId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

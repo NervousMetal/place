@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cs\\source\\repos\\place\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F81F822C-28DA-4542-8A44-F64673EEB20E}|place\\place.csproj|c:\\users\\cs\\source\\repos\\place\\place\\controllers\\publicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F81F822C-28DA-4542-8A44-F64673EEB20E}|place\\place.csproj|solutionrelative:place\\controllers\\publicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F81F822C-28DA-4542-8A44-F64673EEB20E}|place\\place.csproj|c:\\users\\cs\\source\\repos\\place\\place\\models\\placecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F81F822C-28DA-4542-8A44-F64673EEB20E}|place\\place.csproj|solutionrelative:place\\models\\placecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F81F822C-28DA-4542-8A44-F64673EEB20E}|place\\place.csproj|c:\\users\\cs\\source\\repos\\place\\place\\models\\publication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F81F822C-28DA-4542-8A44-F64673EEB20E}|place\\place.csproj|solutionrelative:place\\models\\publication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F81F822C-28DA-4542-8A44-F64673EEB20E}|place\\place.csproj|c:\\users\\cs\\source\\repos\\place\\place\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F81F822C-28DA-4542-8A44-F64673EEB20E}|place\\place.csproj|solutionrelative:place\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F81F822C-28DA-4542-8A44-F64673EEB20E}|place\\place.csproj|c:\\users\\cs\\source\\repos\\place\\place\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F81F822C-28DA-4542-8A44-F64673EEB20E}|place\\place.csproj|solutionrelative:place\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F81F822C-28DA-4542-8A44-F64673EEB20E}|place\\place.csproj|c:\\users\\cs\\source\\repos\\place\\place\\models\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F81F822C-28DA-4542-8A44-F64673EEB20E}|place\\place.csproj|solutionrelative:place\\models\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F81F822C-28DA-4542-8A44-F64673EEB20E}|place\\place.csproj|c:\\users\\cs\\source\\repos\\place\\place\\views\\utilisateurs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F81F822C-28DA-4542-8A44-F64673EEB20E}|place\\place.csproj|solutionrelative:place\\views\\utilisateurs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F81F822C-28DA-4542-8A44-F64673EEB20E}|place\\place.csproj|c:\\users\\cs\\source\\repos\\place\\place\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F81F822C-28DA-4542-8A44-F64673EEB20E}|place\\place.csproj|solutionrelative:place\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PublicationsController.cs",
+              "DocumentMoniker": "C:\\Users\\cs\\source\\repos\\place\\place\\Controllers\\PublicationsController.cs",
+              "RelativeDocumentMoniker": "place\\Controllers\\PublicationsController.cs",
+              "ToolTip": "C:\\Users\\cs\\source\\repos\\place\\place\\Controllers\\PublicationsController.cs",
+              "RelativeToolTip": "place\\Controllers\\PublicationsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T15:00:07.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlaceContext.cs",
+              "DocumentMoniker": "C:\\Users\\cs\\source\\repos\\place\\place\\Models\\PlaceContext.cs",
+              "RelativeDocumentMoniker": "place\\Models\\PlaceContext.cs",
+              "ToolTip": "C:\\Users\\cs\\source\\repos\\place\\place\\Models\\PlaceContext.cs",
+              "RelativeToolTip": "place\\Models\\PlaceContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAiwA0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T14:57:43.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\cs\\source\\repos\\place\\place\\Views\\Utilisateurs\\Details.cshtml",
+              "RelativeDocumentMoniker": "place\\Views\\Utilisateurs\\Details.cshtml",
+              "ToolTip": "C:\\Users\\cs\\source\\repos\\place\\place\\Views\\Utilisateurs\\Details.cshtml",
+              "RelativeToolTip": "place\\Views\\Utilisateurs\\Details.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAwDEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-19T00:43:55.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\cs\\source\\repos\\place\\place\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "place\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\cs\\source\\repos\\place\\place\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "place\\Data\\DbInitializer.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAADwv1YAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T00:35:16.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\cs\\source\\repos\\place\\place\\Models\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "place\\Models\\Utilisateur.cs",
+              "ToolTip": "C:\\Users\\cs\\source\\repos\\place\\place\\Models\\Utilisateur.cs",
+              "RelativeToolTip": "place\\Models\\Utilisateur.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAowAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T21:01:01.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\cs\\source\\repos\\place\\place\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "place\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\cs\\source\\repos\\place\\place\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "place\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-18T20:53:13.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Publication.cs",
+              "DocumentMoniker": "C:\\Users\\cs\\source\\repos\\place\\place\\Models\\Publication.cs",
+              "RelativeDocumentMoniker": "place\\Models\\Publication.cs",
+              "ToolTip": "C:\\Users\\cs\\source\\repos\\place\\place\\Models\\Publication.cs",
+              "RelativeToolTip": "place\\Models\\Publication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T19:44:22.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categorie.cs",
+              "DocumentMoniker": "C:\\Users\\cs\\source\\repos\\place\\place\\Models\\Categorie.cs",
+              "RelativeDocumentMoniker": "place\\Models\\Categorie.cs",
+              "ToolTip": "C:\\Users\\cs\\source\\repos\\place\\place\\Models\\Categorie.cs",
+              "RelativeToolTip": "place\\Models\\Categorie.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAYwA0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T15:47:40.038Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

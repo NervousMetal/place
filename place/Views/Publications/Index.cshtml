@@ -1,0 +1,65 @@
+﻿@model IEnumerable<place.Models.Publication>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PublicationTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PublicationDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PublicationImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PublicationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categorie)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Utilisateur)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PublicationTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PublicationDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PublicationImage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PublicationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categorie.CatName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Utilisateur.Email)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PublicationId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PublicationId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PublicationId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
